@@ -12,6 +12,7 @@ integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3Ah
 <body style="background-color: #c7f1dc;">
   <div style="text-align: center;color: red">
   	<h1>Enter Details of Employee</h1>
+	<br>
 	<form:form action="save-employee" modelAttribute="employee">
 	<form:hidden path="employeeId"/>
 	<label>Employee Name :</label>
@@ -26,7 +27,7 @@ integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3Ah
 	<label>Employee Salary :</label>
 	<form:input path="employeeSalary" />
 	<br>
-	<button type="submit" class="btn btn-primary">Add Student</button>
+	<button type="submit" class="btn btn-primary">Add Employee</button>
 	</form:form>
   </div>
 </body>
